@@ -1,3 +1,13 @@
 ---
 layout: default
 ---
+<ul>
+{% for song in site.songs %}
+  <li>
+    <h2>{{ song.name }}</h2>
+    <audio src="/assets/{{ song.filename }}" controls loop></audio>
+  </li>
+{% endfor %}
+</ul>
+
+<img src="/assets/dancing.gif">

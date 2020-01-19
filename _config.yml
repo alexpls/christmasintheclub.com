@@ -1,9 +1,9 @@
 title: Christmas In The Club
-email: alex@alexplescan.com
 description: >-
-  Christmas In The Club and other associated music.
+  Christmas In The Club and other hot tracks.
 baseurl: ""
 url: "https://christmasintheclub.com"
 markdown: kramdown
-plugins:
-  - jekyll-feed
+collections:
+  songs:
+    output: false
